@@ -1,0 +1,27 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>{{plant.name.capitalize}}'s Detiail Page</h1>
+
+<div class="card">
+    <div class="card-content">
+        <span class="card-title">{{ shroom.name }}</span>
+        <p>Scientific Name: {{ shroom.scientific_name }}</p>
+        <p>Type: {{ shroom.get_type_display }}</p>
+        <p>Blooming Season: {{ shroom.get_bloom_season_display }}</p>
+        {% if plant.picking_season == 'NAN' %}
+        <p>No Picking season</p>
+        {% else %}
+        <p>Picking Season: {{ shroom.get_picking_season_display }}</p>
+        {% endif %}
+        <p>Type: {{ shroom.type }}</p>
+        <p>Description: {{ shroom.description }}</p>
+        <p>Height: {{ shroom.height }}</p>
+        <p>Spread: {{ shroom.spread }}</p>
+    </div>
+    <div class="card-action">
+        <a href="{% url 'shrooms_update' shroom.id %}">Edit</a>
+        <a href="{% url 'shrooms_delete' shroom.id %}">Delete</a>
+    </div>
+</div>
+
+{% endblock %}

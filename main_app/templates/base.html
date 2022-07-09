@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 
 <body>
@@ -25,7 +27,8 @@
                 </ul>
                 <ul class="right">
                     <li><a href="{% url 'about' %}">About</a></li>
-                    
+                    <li><a href="{% url 'index' %}">View All</a></li>
+                    <li><a href="{% url 'shrooms_create' %}">Add</a></li>    
                 </ul>
             </div>
         </nav>
