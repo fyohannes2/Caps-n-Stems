@@ -1,6 +1,5 @@
 from django.contrib import admin
 
-
 # import your models here
 from .models import Shroom
 

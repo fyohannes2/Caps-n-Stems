@@ -1,20 +1,47 @@
-*{
-    box-sizing: border-box;
-    margin: 0
-}
+    @font-face {
+        font-family: 'Rubik Moonrocks', cursive;
+        src: url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+    }
+    
+    
+    *{
+        box-sizing: border-box;
+        margin: 0
+    }
+    
+    body {
+        background-color: #a5d6a7 ;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
 
-body {
-    background-color: #d4f3c3 ;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 0 auto;
-}
-
-footer {
-    padding-top: 0;
-    text-align: right;
-} 
+        background: linear-gradient( #10a84f,rgb(240, 243, 40), red, hsl(221, 83%, 57%)) fixed;
+    }
+    
+    main {
+        flex: 1 0 auto;
+    }
+    
+    footer {
+        padding-top: 0;
+        text-align: right;
+    }
+    .about_p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    
+    .home {
+        border-radius: 2%;
+    }
+    
+    .page-title {
+        text-align: center;
+        font-family: 'Rubik Moonrocks', cursive;
+    }
+    
+    .season-head {
+        font-family: 'Rubik Moonrocks', cursive;
+        text-align: center;
+    }

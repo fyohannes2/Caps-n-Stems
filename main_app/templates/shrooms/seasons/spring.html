@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Cubes!</h1>
+
+<div >
+    <h2> Psilocybe Cubensis</h2>
+{% for shroom in bloom %}
+<div class="card">
+    <a href="{% url 'detail' shroom.id %}">
+        <div class="card-content">
+            <span class="card-title">{{ shroom.name }}</span>
+            <p>Health/Wellbeing {{ shroom.scientific_name }}</p>
+            <p>Potency {{ shroom.description }}</p>
+        </div>
+    </a>
+</div>
+{% endfor %}
+</div>
+<div >
+    <h2>Description</h2>
+{% for plant in pick %}
+<div class="card">
+    <a href="{% url 'detail' shroom.id %}">
+        <div class="card-content">
+            <span class="card-title">{{ shroom.name }}</span>
+            <p> {{ shroom.scientific_name }}</p>
+            <p> {{ shroom.description }}</p>
+        </div>
+    </a>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

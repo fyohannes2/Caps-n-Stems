@@ -3,9 +3,9 @@
 {% block content %}
 
 {% if object %}
-    <h1>Edit {{ object.name}}</h1>
+    <h1 class="page-title "> < Edit {{ object.name}} > </Edit></h1>
 {% else %}
-    <h1>Add Shroom</h1>
+    <h1 class="page-title "> Add a magic mushroom here!  </Create></h1>
 {% endif %}
 
 <form action="" method="post">
@@ -24,4 +24,4 @@
     var selectEl = document.getElementById('id_type');
     M.FormSelect.init(selectEl);
 </script>
-{% endblock %} 
+{% endblock %}

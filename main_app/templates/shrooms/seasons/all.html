@@ -1,0 +1,16 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h1>Psilocybe Family</h1>
+<hr />
+<br />
+<li><a href="{% url 'spring' %}">"Golden Teacher" aka Psilocybe Cubensis</a></li>
+<li><a href="{% url 'summer' %}">"Flying Saucer" aka Psilocybe Azurescens</a></li>
+<li><a href="{% url 'fall' %}">"Liberty Caps" aka Psilocybe Semilanceata</a></li>
+<li><a href="{% url 'winter' %}">"Wavy Caps" aka Psilocybe Cyanescens</a></li>
+<br />
+<hr />
+<p>Check out the differences!</p>
+
+<img src="https://i.postimg.cc/fT7Xqc3N/Types-Psychedelic-Mushrooms.jpg"> 
+{% endblock %}

@@ -1,7 +1,59 @@
+
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Home</h1>
+<h2 class="page-title ">
+    Psilocybin ([SY] + [LOH] + [SY] + [BIN])
+</h2>
+
+<div class="row">
+    <div class="col s10 offset-s1">
+        <img src="https://i.postimg.cc/tRVY92zN/shroom1.jpg" alt="" class="responsive-img home">
+    </div>
+</div>
 <hr />
-<p>mi casa, su casa</p>
+<div class="row">
+    <div class="col s6">
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.postimg.cc/bvr3rsLb/Psilocybe-Cubensis.webp"> 
+            </div>
+            <div class="card-action">
+                <a href="{% url 'spring' %}"> "Golden Teacher" aka Psilocybe Cubensis</a>
+            </div>
+        </div> 
+    </div>
+    <div class="col s6">
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.postimg.cc/nLPLqPxr/Az03.jpg"> 
+            </div>
+            <div class="card-action">
+                <a href="{% url 'summer' %}"> "Flying Saucer" aka Psilocybe Azurescens</a>
+            </div>
+        </div> 
+    </div>
+</div>
+<div class="row">
+    <div class="col s6">
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.postimg.cc/15cQcjSB/Psilocybe-semil.webp"> 
+            </div>
+            <div class="card-action">
+                <a href="{% url 'fall' %}"> " Liberty Caps" aka Psilocybe Semilanceata</a>
+            </div>
+        </div> 
+    </div>
+    <div class="col s6">
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.postimg.cc/025tFWmc/Psilocybe-Cyanescens-Wavy-Caps.jpg"> 
+            </div>
+            <div class="card-action">
+                <a href="{% url 'winter' %}"> "Wavy Caps" aka Psilocybe Cyanescens</a>
+            </div>
+        </div> 
+    </div>
+</div>
 {% endblock %}

@@ -1,19 +1,22 @@
 from django.db import models
 from django.urls import reverse
+from django.contrib.auth.models import User
+
 
 # Create your models here.
 
-SPECIES = (
-    ('AZU','Azurescens'),
-    ('CUB','Cubensis'),
-    ('CYA','Cyanescens'),
-    ('SEM','Semilanceata ')
+
+SEASONS = (
+    ('SUM','Summer'),
+    ('SPG','Spring'),
+    ('FLL','Fall'),
+    ('WIN','Winter')
 )
-SPECIEZ = (
-    ('AZU','Azurescens'),
-    ('CUB','Cubensis'),
-    ('CYA','Cyanescens'),
-    ('SEM','Semilanceata ')
+SEASONZ = (
+    ('SUM','Summer'),
+    ('SPG','Spring'),
+    ('FLL','Fall'),
+    ('WIN','Winter'),
     ('NAN','None'),
 )
 TYPE = (
@@ -33,15 +36,18 @@ class Shroom(models.Model):  # Note that parens are optional if not inheriting f
         default= TYPE[0][0],)
     bloom_season = models.CharField(
         max_length=3,
-        choices=SPECIES,
-        default= SPECIES[0][0],)
+        choices=SEASONS,
+        default= SEASONS[0][0],)
     picking_season = models.CharField(
         max_length=3,
-        choices=SPECIEZ,
-        default= SPECIEZ[0][0],)
+        choices=SEASONZ,
+        default= SEASONZ[0][0],)
     description = models.CharField(max_length=100)
     height = models.CharField(max_length=100)
     spread = models.CharField(max_length=100)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+
+
 
     def __str__(self):
         return self.name
