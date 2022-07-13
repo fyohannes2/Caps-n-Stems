@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'capsnstems.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'capsnstems',
+        'NAME': 'project4',
     }
 }
 
