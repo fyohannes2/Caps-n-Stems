@@ -10,11 +10,11 @@ urlpatterns = [
     path('shrooms/<int:pk>/update/', views.ShroomUpdate.as_view(), name='shrooms_update'),
     path('shrooms/<int:pk>/delete/', views.ShroomDelete.as_view(), name='shrooms_delete'),
     path('accounts/signup/', views.signup, name='signup'),
-    path('plants/seasons/', views.seasons, name='seasons'),
-    path('plants/seasons/spring/', views.spring, name='spring'),
-    path('plants/seasons/summer/', views.summer, name='summer'),
-    path('plants/seasons/winter/', views.winter, name='winter'),
-    path('plants/seasons/fall/', views.fall, name='fall'),
+    path('shrooms/seasons/', views.seasons, name='seasons'),
+    path('shrooms/seasons/spring/', views.spring, name='spring'),
+    path('shrooms/seasons/summer/', views.summer, name='summer'),
+    path('shrooms/seasons/winter/', views.winter, name='winter'),
+    path('shrooms/seasons/fall/', views.fall, name='fall'),
 
 
 
