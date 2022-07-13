@@ -38,7 +38,7 @@
                 </tr>
             </thead>
             <tbody>
-                {% for shroom in trim %}
+                {% for shroom in pick %}
                     <tr>
                         <td><a href="{% url 'detail' shroom.id %}">{{ shroom.name }}</a></td>
                         <td>{{ shroom.scientific_name }}</td>
