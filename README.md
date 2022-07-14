@@ -9,13 +9,13 @@ https://trello.com/b/9WpwqMpD/djangoproject-4
 
 # Technologies used:
 
-*Python,
-*Django,
-*Css3,
-*HTML,
-*Materialize,
-*Heroku,
-*AWS
+1. Python
+2. Django
+3. CSS3
+4. HTML
+5. Materialize
+6. Heroku
+7. AWS
 
 # Screenshots: As A User, I will see... 
 
