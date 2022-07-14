@@ -30,7 +30,7 @@ https://trello.com/b/9WpwqMpD/djangoproject-4
 
 # What did I learn?
 
-How to use python, psql and Django to build a CRUD application.
+How to use Python, psql and Django to build a CRUD application.
 
 # Biggest challenge:
 
@@ -45,4 +45,5 @@ How to use python, psql and Django to build a CRUD application.
 Better styling and providing users in the community to add media and blog posts. No commenting due to the polarity of opinions on this topic, admin regulations may need to be enforced frequently. Maintain neutral platform thats informational not so much promotional are persuanding. A news tracker on the updates and trends in the culture of health and wellness via natural remedies as well as the legality status updates globally.
 
 # Get started... 
+
 https://capsnstems.herokuapp.com/
