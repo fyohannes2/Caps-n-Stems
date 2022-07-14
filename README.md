@@ -7,13 +7,13 @@
 https://trello.com/b/9WpwqMpD/djangoproject-4
 
 # Technologies used:
-Python
-Django
-Css3
-HTML
-Materialize
-Heroku
-AWS
+*Python,
+*Django,
+*Css3,
+*HTML,
+*Materialize,
+*Heroku,
+*AWS
 
 # Screenshots: As a user I will see... 
 
@@ -27,6 +27,7 @@ AWS
 <img width="1440" alt="Screen Shot 2022-07-13 at 12 33 12 AM" src="https://user-images.githubusercontent.com/107531552/178651681-3a20dbde-40e5-4480-9b16-cbf2060f2418.png">
 
 # What did I learn?
+
 How to use python, psql and Django to build a application.
 
 # Biggest challenge:
