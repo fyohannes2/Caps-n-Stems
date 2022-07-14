@@ -27,6 +27,7 @@ TYPE = (
     ('Psilocybe','Psilocybe'),
     ('Psilocybe','Psilocybe'),
 )
+
 class Shroom(models.Model):  # Note that parens are optional if not inheriting from another class
     name = models.CharField(max_length=100)
     scientific_name = models.CharField(max_length=100)
@@ -52,5 +53,6 @@ class Shroom(models.Model):  # Note that parens are optional if not inheriting f
     def __str__(self):
         return self.name
 
+   
     def get_absolute_url(self):
         return reverse('detail', kwargs={'shroom_id': self.id})
