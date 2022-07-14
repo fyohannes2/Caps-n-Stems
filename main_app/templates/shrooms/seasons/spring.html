@@ -1,35 +1,23 @@
+
 {% extends 'base.html' %}
 {% block content %}
-
-<h1>Cubes!</h1>
-
-<div >
-    <img class="responsive-img card-panel" src= "https://i.postimg.cc/zvPfdKQC/goldenteacher.jpg">
-    <h2> Psilocybe Cubensis</h2>
-{% for shroom in bloom %}
-<div class="card">
-    <a href="{% url 'detail' shroom.id %}">
-        <div class="card-content">
-            <span class="card-title">{{ shroom.name }}</span>
-            <p>Health/Wellbeing {{ shroom.scientific_name }}</p>
-            <p>Potency {{ shroom.description }}</p>
+<div class="row">
+    <div class="col s12">
+        <h1 class="page-title ">
+            Cubes!
+        </h1>
+    </div>
+     <div >
+         <h2>
+            <center>
+                <img class="responsive-img card-panel" src="https://i.postimg.cc/15dqDYNW/ABDD8-E2-E-2-F82-4-E3-F-84-AF-D91261-FA9815.jpg" height="1300" width=1300" border="400" >
+            </center>
+            </h2>
+        {% for shroom in bloom %}
+        <div class="card">
+            <a href="{% url 'detail' shroom.id %}">
+        
+            </a>
         </div>
-    </a>
-</div>
-{% endfor %}
-</div>
-<div >
-    <h2>Description</h2>
-{% for shroom in pick %}
-<div class="card">
-    <a href="{% url 'detail' shroom.id %}">
-        <div class="card-content">
-            <span class="card-title">{{ shroom.name }}</span>
-            <p> {{ shroom.scientific_name }}</p>
-            <p> {{ shroom.description }}</p>
-        </div>
-    </a>
-</div>
-{% endfor %}
-</div>
-{% endblock %}
+        {% endfor %}
+        {% endblock %}

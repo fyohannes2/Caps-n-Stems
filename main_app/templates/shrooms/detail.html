@@ -1,14 +1,13 @@
 
 {% extends 'base.html' %} {% block content %}
 
-<h1>{{shroom.name.capitalize}} Details </h1>
+<h1>{{.name.capitalize}} Info: </h1>
 
 <div class="card">
     <div class="card-content">
         <span class="card-title">{{ shroom.name }}</span>
         <p>Scientific Name: {{ shroom.scientific_name }}</p>
-        <p>Type: {{ shroom.get_type_display }}</p>
-        <p>Potency: {{ shroom.get_bloom_season_display }}</p>
+        <p>Bloom: {{ shroom.get_bloom_season_display }}</p>
         {% if shroom.picking_season == 'NAN' %}
         <p>Blueish-Purple bruising indicates amount of Psilocybe</p>
         {% else %}

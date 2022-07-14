@@ -7,48 +7,19 @@
             Liberty Caps!
         </h1>
     </div>
-    <div class="col s12 m6">
-        <h4 class="season-head">Psilocybe Semilanceata</h4>
-        <table >
-            <thead>
-                <tr>
-                    <img class="responsive-img card-panel" src ="https://i.postimg.cc/mDxCRGkK/psilsemil.webp">
-                    <th>Health/Wellbeing</th>
-                    <th>Potency</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for shroom in bloom %}
-                <tr>
-                        <td><a href="{% url 'detail' shroom.id %}">{{ shroom.name }}</a></td>
-                        <td>{{ shroom.scientific_name }}</td>
-                        <td>{{ shroom.type }}</td>
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
-    <div class="col s12 m6">
-        <h4 class="season-head"></h4>
-        <table class="highlight">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for shroom in pick %}
-                    <tr>
-                        <td><a href="{% url 'detail' shroom.id %}">{{ shroom.name }}</a></td>
-                        <td>{{ shroom.scientific_name }}</td>
-                        <td>{{ shroom.type }}</td>
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
-</div>
-{% endblock %}
+   
+        
+        <div >
+            <h2>
+                <center>
+                <img class="responsive-img card-panel" src="https://i.postimg.cc/RFng7ng8/BF2172-FB-FC52-4209-859-D-44-EFCBAB3-D86.jpg" height="1000" width=1000" border="400" >
+                </center>
+            </h2>
+        {% for shroom in bloom %}
+        <div class="card">
+            <a href="{% url 'detail' shroom.id %}">
+        
+            </a>
+        </div>
+        {% endfor %}
+        {% endblock %}

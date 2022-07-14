@@ -1,16 +1,21 @@
 
 {% extends "base.html" %}
 {% block content %}
-<h1>Psilocybe Genus Family</h1>
+<div class="row">
+    <div class="col s12">
+        <h1 class="page-title ">
+    The Psilocybe Genus Family:
+    </h1>
+</div>
 <hr />
 <br />
-<li><a href="{% url 'spring' %}">"Golden Teacher" aka Psilocybe Cubensis</a></li>
-<li><a href="{% url 'summer' %}">"Flying Saucer" aka Psilocybe Azurescens</a></li>
-<li><a href="{% url 'fall' %}">"Liberty Caps" aka Psilocybe Semilanceata</a></li>
-<li><a href="{% url 'winter' %}">"Wavy Caps" aka Psilocybe Cyanescens</a></li>
+<li><a href="{% url 'spring' %}"><font size= "6"> "Golden Teacher" aka Psilocybe Cubensis</font></a></li>
+<li><a href="{% url 'summer' %}"><font size= "6"> "Flying Saucer" aka Psilocybe Azurescens</font></a></li>
+<li><a href="{% url 'fall' %}"><font size= "6"> "Liberty Caps" aka Psilocybe Semilanceata</font></a></li>
+<li><a href="{% url 'winter' %}"><font size= "6"> "Wavy Caps" aka Psilocybe Cyanescens</font></a></li>
 <br />
 <hr />
-<p>Check 'em out!</p>
+<p><font size= "6">Click the links for more facts about these popular species and strains! </font></p>
 
 <img src="https://i.postimg.cc/fT7Xqc3N/Types-Psychedelic-Mushrooms.jpg"> 
 {% endblock %}

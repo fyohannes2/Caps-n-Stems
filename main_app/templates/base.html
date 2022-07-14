@@ -22,12 +22,12 @@
             <div class="nav-wrapper #4A0404 brown darken -2">
                 <ul>
                     <li>
-                        <a href="/" class="left brand-logo">&nbsp;&nbsp;"Caps n' Stems"</a>
+                        <a href="/" class="left brand-logo">&nbsp;&nbsp;"Caps n' Stems": strictly informal</a>
                     </li>
                 </ul>
                 <ul class="right">
                     <li><a href="{% url 'about' %}">About</a></li>
-                    <li><a href="{% url 'index' %}">Info</a></li>
+                    <li><a href="{% url 'index' %}">List</a></li>
                     <li><a href="{% url 'seasons' %}">Strains</a></li>
                     {% if user.is_authenticated %}
                     <li><a href="{% url 'shrooms_create' %}">Add shroom</a></li>
