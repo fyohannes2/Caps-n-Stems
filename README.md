@@ -1,6 +1,7 @@
 # "Caps-n-Stems": strictly informational
 
-Full CRUD app
+ Nearly three years ago, Denver decriminalized psilocybin, an effort that cracked open the door to a medicine experts say treats everything from depression to end-of-life anxiety. However, it’s still a schedule 1 drug and the Drug Policy Alliance reps claim to citing the general public's views of psychedelics as extremely dangerous — close to drugs like crack cocaine, heroin, and meth. As hallucinogens and psychedelics get a renewed look by researchers, they're finding that the substances may improve almost anyone's mood and quality of life — as long as they're taken in the right setting, typically a controlled environment. And while the studies are new and ongoing, and a national regulatory model for legal hallucinogens is practically nonexistent, the available research is very promising — enough to reconsider the demonization and prohibition of these potentially amazing drugs.
+
 
 # wireframe and trello...
 https://trello.com/b/9WpwqMpD/djangoproject-4
@@ -11,6 +12,8 @@ Django
 Css3
 HTML
 Materialize
+Heroku
+AWS
 
 # Screenshots: As a user I will see... 
 
@@ -24,7 +27,7 @@ Materialize
 <img width="1440" alt="Screen Shot 2022-07-13 at 12 33 12 AM" src="https://user-images.githubusercontent.com/107531552/178651681-3a20dbde-40e5-4480-9b16-cbf2060f2418.png">
 
 # What did I learn?
-How to use python, psql and Django to build a simple application.
+How to use python, psql and Django to build a application.
 
 # Biggest challenge:
 1. Deployment to Heroku and control flow with github.
