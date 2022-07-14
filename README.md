@@ -5,6 +5,13 @@
 
 # Wireframe and Trello...
 
+<img width="948" alt="Screen Shot 2022-07-14 at 12 21 27 PM" src="https://user-images.githubusercontent.com/107531552/179030855-a4a4159e-3d5c-47ab-88bc-bab78d338d10.png">
+<img width="529" alt="Screen Shot 2022-07-14 at 12 22 10 PM" src="https://user-images.githubusercontent.com/107531552/179030885-0399981c-4c68-4409-af8f-9dcc740829df.png">
+<img width="948" alt="Screen Shot 2022-07-14 at 12 21 00 PM" src="https://user-images.githubusercontent.com/107531552/179030938-d99a76d9-eb36-4d43-b83d-b1a10a297a59.png">
+<img width="965" alt="Screen Shot 2022-07-14 at 12 22 30 PM" src="https://user-images.githubusercontent.com/107531552/179030967-968cc59b-178f-420a-a3fd-d3d725372920.png">
+<img width="964" alt="Screen Shot 2022-07-14 at 12 21 46 PM" src="https://user-images.githubusercontent.com/107531552/179030991-0c6f0120-762d-491b-adfa-5b60fe1201e6.png">
+<img width="948" alt="Screen Shot 2022-07-14 at 12 21 17 PM" src="https://user-images.githubusercontent.com/107531552/179031016-a11d5ee6-5702-4e10-ac09-605022725f6f.png">
+
 https://trello.com/b/9WpwqMpD/djangoproject-4
 
 # Technologies used:
